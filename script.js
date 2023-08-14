@@ -37,7 +37,6 @@ const activateDropper = () => {
 
     if(!pickedColors.includes(sRGBHex)){
     pickedColors.push(sRGBHex);
-    console.log(pickedColors);
     localStorage.setItem("picked-colors", JSON.stringify(pickedColors));
     showColors();
     }
